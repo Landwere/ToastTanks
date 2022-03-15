@@ -1,0 +1,906 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/externals/SDL2/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "SDL_PointInRect",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Sprite::visible' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Sprite@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Sprite::visible"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Sprite::boundingSphere' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Sprite@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Sprite::boundingSphere"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Sprite::surface' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Sprite@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Sprite::surface"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Sprite::rect' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Sprite@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Sprite::rect"
+          }
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'surface'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 3,
+                  "endLine": 51,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Sprite@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'surface' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'surface' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'enemyTurret::rect' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/enemyTurret.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0enemyTurret@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "enemyTurret::rect"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'enemyTurret::rotation' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/enemyTurret.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0enemyTurret@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "enemyTurret::rotation"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'enemyTurret::surface' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/enemyTurret.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0enemyTurret@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "enemyTurret::surface"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00A4C1C0 -il C:\\Users\\Student\\AppData\\Local\\Temp\\_CL_0c73d2d1ast -typedil -f source\\enemyTurret.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\enemyTurret.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\Student\\Documents\\GitHub\\milestones-Landwere\\code\\cplusplus_programming_for_games -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Users\\Student\\Documents\\GitHub\\milestones-Landwere\\code\\cplusplus_programming_for_games\\externals\\SDL2_ttf\\include -I C:\\Users\\Student\\Documents\\GitHub\\milestones-Landwere\\code\\cplusplus_programming_for_games\\externals\\SDL2_image\\include -I C:\\Users\\Student\\Documents\\GitHub\\milestones-Landwere\\code\\cplusplus_programming_for_games\\externals\\SDL2\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Users\\Student\\Documents\\GitHub\\milestones-Landwere\\code\\cplusplus_programming_for_games\\externals\\SDL2_mixer\\include -MPdiagMutex 00000000000001AC",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/externals/SDL2/include/SDL_rect.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "671e1c6d76712086a19ce1b1f63882ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/Sprite.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "83f3628d6e97537a6974459c382674ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Student/Documents/GitHub/milestones-Landwere/code/cplusplus_programming_for_games/source/enemyTurret.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f8e0ed8cdb2db100c29cfb55fbfa98f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/source/enemyturret.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "cba036d4fc4930a912f1a04e31ce467c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl.h"
+          },
+          "hashes": {
+            "md5": "2d2813449469399cdd9fa33be6ab4619"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "1c031c8d6261500d9d414de8426d4d56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "md5": "7e837bd7521b3edc45ffcd3128470271"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "1a2f5cb9a3beafe4a8a4e7e27230d5c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "e0373fc686b141172f081016211ab723"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/begin_code.h"
+          },
+          "hashes": {
+            "md5": "387e2322e3f77ac3e61cd346b6c80721"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/close_code.h"
+          },
+          "hashes": {
+            "md5": "01147dbbe8cac22fa0959af190a65584"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "553d728157da3dcee514f66f9be69b68"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "d549be34924bdb8e46217e429bbb0d5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "326a192d24692641e7f0e07d16139179"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "b6787cc03d4495485fa385701b8c380f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "6bc36f6569b69ef9d788545fb7dc2691"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "daf58a1f7457b9639992f12420fae981"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "20daa825a92b1ce4fef5fa81585484fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "34ed2bb110dd3453b3d38a5aa4e14bd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "5bc7f85a1f263df88037123a7bc90a2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "2f922776451e7e66d0b565bf646bdb83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "ce4404b923e2116c20337c451c52baeb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "4d6cd91406cd555e94158e9ed5c26202"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "d0d29336ef4a478298fad2af35f643bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "737c24971c41a122c738d370f1ff7b5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "d547bc81c98726276b412b65a322628a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "9cc8c58e286902e749416d4622b770bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "7511b46bfc1de3e227c210df9c1112c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "806b254f4be70b11586f70dae1717490"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "4fc1977ea743ebba0ca88c61778417c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "f42b15fc6ddab1cc893b7aeba63d60ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "4434a691e235411ef102a824d008b962"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "md5": "66edb7b493dd417f3efd60fd32e5c5b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "f7f35b8319aa55d9f357171b25b4c8de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "2cc58992baafd802718054cb9098e938"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "a80f13367bd6d7f319c187f08db61ca5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "73131ced996fb4044c135b5d60753a40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "6b8af29ec235108e732d843563806682"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "6d2ff830f6abdbcf16dd342c7c2cbc51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "647b78e983b287d8c07f2273e5c89ab4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "a9c3476d00d02d6fa5e4e66f1f1b1f5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "c40856438911de4fe1446b7d3a300aae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_metal.h"
+          },
+          "hashes": {
+            "md5": "c0e334d187acbdbf7e57a6eabc8f05c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "28cd766cca60eb31bb597a013b412733"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "a2f7c80f7abd15c7e01ad1a5a389ec86"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_shape.h"
+          },
+          "hashes": {
+            "md5": "3923a6e8a74e8b0dfe4c26a2daf810ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "97a495025d87ad5a8544ce91eb64d470"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "970924a00f781454ade2137b2a589d7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "cbca650f1c06a8f42c42f1bd28f3468d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_locale.h"
+          },
+          "hashes": {
+            "md5": "e993a848473b5c2016fa835b804c8e0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2/include/sdl_misc.h"
+          },
+          "hashes": {
+            "md5": "a9677db55d0596f3a9696f123f646e67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/student/documents/github/milestones-landwere/code/cplusplus_programming_for_games/externals/sdl2_image/include/sdl_image.h"
+          },
+          "hashes": {
+            "md5": "0ccc93aad7f3bcda7016f9ac9dfab470"
+          }
+        }
+      ]
+    }
+  ]
+}
